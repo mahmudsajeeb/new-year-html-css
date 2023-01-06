@@ -125,6 +125,7 @@ font-weight: 500;
 /* footer section */
 
 footer .footer_container{
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   padding: 70px;
