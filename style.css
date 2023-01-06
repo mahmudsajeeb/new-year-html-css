@@ -1,0 +1,169 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans';
+}
+.header_container{
+  background-image: url('./images/banner/banner2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  top: 0px;
+
+}
+
+.btn{
+width: 160px;
+height: 56px; 
+top: 500px; 
+background: #F15B22; 
+border-radius: 5px;
+cursor: pointer;
+color: #fff;
+border: none;
+font-size: 20px;
+font-weight: 500;
+
+}
+
+.content_area{
+  text-align: right; 
+  padding: 40px;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+.content_area h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  font-family: 'Work Sans';
+}
+
+.content_area p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+/* failure section */
+.failure{
+  background: #fff;
+  width: 100%;
+  height:70vh;
+  margin-top: 1000px;
+   
+}
+.failure .failure_container{
+  display: flex; 
+  justify-content:  center;
+  align-items: center; 
+}
+.box-1 img{
+ width: 100%;
+ height: 500px; 
+} 
+
+.box-2 .fa{  
+  display: flex; 
+}
+
+/* my plan */
+.plan_title{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.plan_container .plan_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.plan_container .plan_box p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;  
+  color: #737272;
+}
+
+/* mindset section ------------*/
+.mindset .mindset_box{
+    background: linear-gradient(135deg, orange 40%, cyan);
+    width: 60%;
+     margin-left: 370px;
+     padding: 4rem;
+}
+.mindset .mindset_box h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 3rem;
+}
+
+.mindset_button{
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color:   #F15B22;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+}
+
+/* footer section */
+
+footer .footer_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  align-items: center;
+  background: black;
+  color: #fff;
+}
+.future{
+  margin-left:270px;
+}
+.future h1{
+  font-size: 30px;
+  text-transform: capitalize;
+
+}
+.future p{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.future .social_icon{
+  display: flex;
+  gap: 1.4rem;
+}
+
+.subscribe input{
+    display: block;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;
+    background: transparent;
+    margin-bottom: 17px;
+    border-radius: 7px;
+    color: #fff;
+    margin-right: 70px;
+}
+ 
