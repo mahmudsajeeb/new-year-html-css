@@ -52,6 +52,39 @@ font-weight: 500;
   line-height: 26px;
   color: #444343;
 }
+/* about section */
+.about .about_container{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+.about > h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 70px;
+}
+.content h2{
+  font-size: 45px;
+  font-weight: bolder;
+}
+.content p{
+  font-size: 18px;
+}
+.image img{
+  width: 500px;
+  height: 400px;
+  border-radius: 50%;
+  margin-left: 30px;
+  animation:float 3s linear infinite;
+} 
+@keyframes float {
+  0%, 100%{
+      transform: translateY(0rem);
+  }50%{
+    transform: translateY(3rem);
+  }
+}
 /* failure section */
 .failure{
   background: #fff;
@@ -99,9 +132,12 @@ font-weight: 500;
 }
 
 /* mindset section ------------*/
-.mindset .mindset_box{
-    background: linear-gradient(135deg, orange 40%, cyan);
+.mindset .mindset_box{ 
     width: 60%;
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0.208), rgba(117, 19, 93, 0.73)),url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
      margin-left: 370px;
      padding: 4rem;
 }
